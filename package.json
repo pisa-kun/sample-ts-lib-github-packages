@@ -1,0 +1,25 @@
+{
+  "name": "@pisa-kun/sample-ts-lib-github-packages",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+},
+  "keywords": [],
+  "author": "pisa-kun",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pisa-kun/sample-ts-lib-github-packages.git"
+},
+  "devDependencies": {
+    "@types/node": "^22.7.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
